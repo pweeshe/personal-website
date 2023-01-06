@@ -42,6 +42,7 @@ const Home: NextPage = () => {
                   <Link
                     href="https://www.behance.net/ede5e"
                     className="underline"
+                    target="_blank"
                   >
                     Find additional visual works on Behance!
                   </Link>
