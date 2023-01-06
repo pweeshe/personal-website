@@ -2,6 +2,9 @@ import { useState, useRef } from "react";
 
 const LoadingSpinner = () => <></>;
 export default function ContactMe() {
+  const handleSubmit = () => {
+    return;
+  };
   return (
     <div className="border-blue-200 dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque my-4 w-full rounded border p-6">
       <p className="text-gray-900 dark:text-gray-100 text-lg font-bold md:text-xl">
@@ -10,7 +13,7 @@ export default function ContactMe() {
       <p className="text-gray-800 dark:text-gray-200 my-1">
         Get in touch to hire me on your next project or just to say hi 👋.
       </p>
-      <form className="relative my-4" onSubmit={() => {}}>
+      <form className="relative my-4" onSubmit={handleSubmit}>
         <input
           //   ref={inputEl}
           aria-label="Email for newsletter"
