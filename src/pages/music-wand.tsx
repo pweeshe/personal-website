@@ -17,9 +17,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Link href="/home">
-        <div className="fixed left-24 top-12 flex items-center gap-2 rounded-xl bg-white-half px-4 py-2 font-medium hover:fill-white hover:text-white">
+      <div className="fixed left-12 top-12 flex items-center gap-2 rounded-xl bg-white/[.06] px-4 py-2 font-medium fill-white/[.2] hover:fill-white text-white md:left-24">
           <BackArrowIcon />
-          Back home
+          Home
         </div>
       </Link>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#000010] to-[#000000] py-32 text-white">
