@@ -25,7 +25,7 @@ const GradientCard = ({
       )}
     >
       <Link href={href}>
-        <div className="flex h-full flex-col justify-between rounded-lg bg-black p-4">
+        <div className="flex h-full flex-col justify-between rounded-lg bg-[#050000] p-4">
           <div className="flex flex-col justify-between">
             <h3 className="mb-2 w-full w-fit text-lg font-medium tracking-tight">
               {title}

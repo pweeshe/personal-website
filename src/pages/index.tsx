@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#000010] to-[#000000] p-16 text-white">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#100000] to-[#050000] p-16 text-white">
         <div>
           <div className="mb-4 block md:hidden">
             <Image

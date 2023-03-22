@@ -8,6 +8,7 @@ import cn from "classnames";
 import GradientCard from "../components/GradientCard";
 import ContactMe from "../components/ContactMe";
 import BackArrowIcon from "../components/BackArrowIcon";
+import BackButton from "../components/BackButton";
 const Home: NextPage = () => {
   return (
     <>
@@ -16,13 +17,8 @@ const Home: NextPage = () => {
         <meta name="description" content="Dalem Nazim Abdelaziz - Musicwand" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Link href="/home">
-      <div className="fixed left-12 top-12 flex items-center gap-2 rounded-xl bg-white/[.06] px-4 py-2 font-medium fill-white/[.2] hover:fill-white text-white md:left-24">
-          <BackArrowIcon />
-          Home
-        </div>
-      </Link>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#000010] to-[#000000] py-32 text-white">
+      <BackButton />
+      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#100000] to-[#050000] py-32 text-white">
         <div className="w-3/4">
           <div className="flex flex-row gap-x-16">
             <div className="pr-100 flex flex-col gap-y-2">
